@@ -1,0 +1,175 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 17, 2020, 8:17:54 AM
+    Author     : __ntnc__ 
+*/
+@media only screen and (min-width:400px){
+    header{
+        background-color: #1c77ac;
+        padding: 0.5%;
+    }
+
+    /*    .name{
+            padding-top: 5%;
+            font-size: 200%;
+            text-decoration-color: white;
+        }*/
+
+    .main{
+        font-size: 120%;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        padding-left: 20%;
+        padding-right: 15%;
+        padding-top: 2%;
+    }
+
+    .carousel {
+        width:10%;
+        height:20%;
+        margin: auto;
+    }
+
+    nav{
+        text-align: left;
+    }
+    nav a{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 2%;
+        display: inline-block;
+        font-size: 130%;
+        color: white;
+    }
+
+    footer{
+        background-color: white;
+        color: black;
+    }
+}
+
+
+@media only screen and (min-width:900px){
+
+    header{
+        background-color: #51d0de;
+        opacity: 0.9;
+    }
+
+    #avatar{
+        height: 40%;
+        width: 40%;
+        border-radius: 50%;
+        float: left;
+        margin: 5%;
+    }
+
+    h1{
+        margin-left: 10%;
+    }
+    
+    form{
+        text-align: center;
+    }
+    
+    input{
+        border: solid 2px #1c77ac;
+        margin: 3px;
+        background-color: #e9ffff;
+    }
+    
+    textarea{
+        border: solid 2px #1c77ac;
+        background-color: #e9ffff;
+    }
+    
+    .icons{
+        float: right;
+        height: 3%;
+        width: 3%;
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+
+    .name{
+        /*        float: right;*/
+        padding-left:10%;
+        padding-top: 0%;
+        font-size: 330%;
+    }
+
+    .main{
+        padding-top: 1%;
+        font-size: 140%;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        padding-left: 50%;
+        padding-right: 4%;
+
+    }
+
+    .main2{
+        padding-top: 0px;
+        font-size: 140%;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        padding-left: 50%;
+        padding-right: 4%;
+    }
+
+    main{
+        /*        background-color:  #c2dde6;*/
+    }
+
+    .carousel {
+        width:15%;
+        height:20%;
+        margin-left: 66%;
+    }
+
+    nav{
+        text-align: left;
+        /*        background-color: pink;*/
+    }
+    nav a{
+        float: right;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-right: 2%;
+        margin: 12px;
+        display: inline-block;
+        font-size: 140%;
+        color: black;
+        border-radius: 10px;
+        transition: color 0.4s, background 0.4s;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: #fff;
+        background-color: #51d0de;
+    }
+
+    footer{
+        min-height: 20%;
+        margin-top: 0%;
+        background-color: white;
+        color: black;
+        padding-left: 0%;
+        padding-top: 10%;
+        padding-bottom: 1%;
+    }
+
+    .footer{
+        height: 80%;
+    }
+}
