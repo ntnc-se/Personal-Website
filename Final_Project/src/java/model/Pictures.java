@@ -15,7 +15,12 @@ public class Pictures {
     private String aid;
     private String link;
 
+    public Pictures(String id, String aid) {
+    }
+    
     public Pictures() {
+        this.id = id;
+        this.aid = aid;
     }
 
     public Pictures(String id, String aid, String link) {
